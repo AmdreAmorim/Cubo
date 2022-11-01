@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body onselectstart="return false">
+        <div>
+            <input type="range" id="angx" class="anga" min="0" max="360" value="0" oninput="mover()" onmousedown="grab(1)" onmouseup="grab(2)" />
+            <input type="range" id="angy" class="anga" min="0" max="360" value="0" oninput="mover()" onmousedown="grab(3)" onmouseup="grab(4)" />
+        </div>
+        <div class="container">
+            <div id="cube" class="cube">
+                <div class="face front">1</div>
+                <div class="face back">2</div>
+                <div class="face left">3</div>
+                <div class="face right">4</div>
+                <div class="face top">5</div>
+                <div class="face bottom">6</div>
+            </div>
+        </div>
+        <div class="resxy">
+            <div id="resx">0</div>
+            <div id="resy">0</div>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
