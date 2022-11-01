@@ -21,19 +21,15 @@ function grab(i) { // Faz o cursor abrir e fechar no slide
     if (i == 1) {
         angulox.classList.remove('anga');
         angulox.classList.add('angf');
-        console.log(1)
     } else if(i == 2){
         angulox.classList.remove('angf');
         angulox.classList.add('anga');
-        console.log(2)
     } else if(i == 3) {
         anguloy.classList.remove('anga');
         anguloy.classList.add('angf');
-        console.log(3)
     } else if (i == 4) {
         anguloy.classList.remove('angf');
         anguloy.classList.add('anga');
-        console.log(4)
     }
 }
 
